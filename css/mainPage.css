@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:  'Proxima Nova', cursive;
+    font-size: 22px;
+}
+.bgimg {
+    background-image: url('../images/cssoon.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+}
+.quotes {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.myModal-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+ 
+img {
+  border-radius: 50%;
+}
+    
+hr {
+    margin: auto;
+    width: 40%;
+}
+.noSelect{
+    -webkit-user-select: none;  
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
